@@ -252,7 +252,7 @@ async function handleProxyRequest(request, targetUrlParam, currentOrigin) {
     })
 
     const controller = new AbortController()
-    const timeoutId = setTimeout(() => controller.abort(), 9000)
+    const timeoutId = setTimeout(() => controller.abort(), 5000)
     const response = await fetch(proxyRequest, { signal: controller.signal })
     clearTimeout(timeoutId)
 

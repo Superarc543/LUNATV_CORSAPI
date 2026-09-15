@@ -8,4 +8,4 @@ workers_dev = true
 #KV 命名空间绑定（可选，如果需要使用 KV 缓存请取消注释）
 [[kv_namespaces]]
 binding = "KV"
-id = "lunatv-corsapi"
+id = "a1d5e83d3ab74ab7a46b125e6a967743"
